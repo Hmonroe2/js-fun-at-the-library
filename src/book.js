@@ -1,3 +1,6 @@
+
+// create function called 'createTitle'
+//creat function with the parameter of title
 function createTitle(title) {
 return `The ${title}`
 }
@@ -25,7 +28,26 @@ function saveReview( customerReview, reviews){
   } else {
     reviews.push(customerReview)
   }
-  // return reviews
+  return reviews
+
+// function saveReview ( customerReview, reviews) {
+//   var isIncluded
+//     for( var i = 0; i < reviews.length; i++) {
+//     if (reviews[i] === customerReview) {
+//       isIncluded = true
+//     } else {
+//
+//     }
+//
+//   if (isIncluded ) {
+//
+// } else {
+//   reviews.push(userReview)
+//
+// }
+
+
+
 };
 function calculatePageCount(bookTitle) {
   for ( var i = 0; i < bookTitle.length; i ++) {
