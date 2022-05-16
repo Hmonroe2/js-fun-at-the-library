@@ -13,13 +13,13 @@
 // var title = "Harry Potter";
 // var ...
 var title = "The Little Book of Talent";
-var pages = 122;
+var pages = 99;
 
 
 // Reassign (not initialize) your "pages" variable from above. An editor came around and
 // condensed the book, use a built in math operator to make the page count a quarter
 // of what it currently is
-var pages = 124 / 4;
+pages = pages / 4;
 
     console.log(pages);
 
